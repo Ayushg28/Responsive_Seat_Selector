@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seat Reservation</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="seat-map">
+  <div class="row">
+    <div class="seat">1</div>
+    <div class="seat">2</div>
+    <div class="seat">3</div>
+    <!-- Add more seats here -->
+  </div>
+  <div class="row">
+    <div class="seat">4</div>
+    <div class="seat">5</div>
+    <div class="seat">6</div>
+    <!-- Add more seats here -->
+  </div>
+  <!-- Add more rows here -->
+</div>
+<button id="reserve-btn">Reserve</button>
+<script src="script.js"></script>
+</body>
+</html>
